@@ -17,5 +17,8 @@
 
         //3
         public string Title;
+
+        //4
+        public Genre BookGenre { get; set; }
     }
 }

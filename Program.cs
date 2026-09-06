@@ -23,6 +23,10 @@ namespace Assignment
             myBook.Title = "CSharp 05";
             Console.WriteLine(myBook.Title);
 
+
+            //4 
+            myBook.BookGenre = Genre.Science;
+            Console.WriteLine(myBook.BookGenre);
         }
     }
 }
