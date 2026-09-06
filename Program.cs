@@ -31,9 +31,12 @@ namespace Assignment
             //5
             Console.WriteLine((int)Genre.Fiction);    
             Console.WriteLine((int)Genre.NonFiction); 
-            Console.WriteLine((int)Genre.Science);   
+            Console.WriteLine((int)Genre.Science);
 
-
+            //6
+            int genreNumber = 1;
+            Genre convertedGenre = (Genre)genreNumber;
+            Console.WriteLine(convertedGenre); // NonFiction
         }
     }
 }
