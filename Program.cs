@@ -47,6 +47,17 @@ namespace Assignment
             string genreText1 = "Science";
             Genre parsedGenre = (Genre)Enum.Parse(typeof(Genre), genreText1);
             Console.WriteLine(parsedGenre); // Science
+
+            //9 
+            string genreText2 = "Mystery";
+            if (Enum.TryParse(genreText2, out Genre result))
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre"); 
+            }
         }
     }
 }
