@@ -14,5 +14,8 @@
 
         //2 
         internal int copiesInStock = 5; 
+
+        //3
+        public string Title;
     }
 }

@@ -19,6 +19,10 @@ namespace Assignment
             // 5 
             // why ? because copiesInStock is internal and can be accessed within the same assembly.
 
+            //3 
+            myBook.Title = "CSharp 05";
+            Console.WriteLine(myBook.Title);
+
         }
     }
 }
