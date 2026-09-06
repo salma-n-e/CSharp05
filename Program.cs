@@ -41,7 +41,12 @@ namespace Assignment
             //7
             Genre genre = Genre.Fiction;
             string genreString = genre.ToString();
-            Console.WriteLine(genreString); 
+            Console.WriteLine(genreString);
+
+            //8 
+            string genreText1 = "Science";
+            Genre parsedGenre = (Genre)Enum.Parse(typeof(Genre), genreText1);
+            Console.WriteLine(parsedGenre); // Science
         }
     }
 }
