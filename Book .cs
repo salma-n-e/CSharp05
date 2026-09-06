@@ -11,9 +11,8 @@
     {
         //1
         private string password = "secret";
+
+        //2 
+        internal int copiesInStock = 5; 
     }
-
-
-
-
 }

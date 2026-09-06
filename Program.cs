@@ -13,6 +13,12 @@ namespace Assignment
             // compilation error.
             // why ? because password is private and cannot be accessed outside the class.
 
+
+            //2 
+            Console.WriteLine(myBook.copiesInStock);
+            // 5 
+            // why ? because copiesInStock is internal and can be accessed within the same assembly.
+
         }
     }
 }
