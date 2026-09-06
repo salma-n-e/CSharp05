@@ -27,6 +27,13 @@ namespace Assignment
             //4 
             myBook.BookGenre = Genre.Science;
             Console.WriteLine(myBook.BookGenre);
+
+            //5
+            Console.WriteLine((int)Genre.Fiction);    
+            Console.WriteLine((int)Genre.NonFiction); 
+            Console.WriteLine((int)Genre.Science);   
+
+
         }
     }
 }
