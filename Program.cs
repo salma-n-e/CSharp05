@@ -37,6 +37,11 @@ namespace Assignment
             int genreNumber = 1;
             Genre convertedGenre = (Genre)genreNumber;
             Console.WriteLine(convertedGenre); // NonFiction
+
+            //7
+            Genre genre = Genre.Fiction;
+            string genreString = genre.ToString();
+            Console.WriteLine(genreString); 
         }
     }
 }
